@@ -1,0 +1,25 @@
+                                        GIT COMMANDS
+        1.git config:sets configure values for your user name,email and more.
+        Example:-git config --global user.name"your name"
+        git config --global user.email"your email"
+       
+        2.git init:initalize a git repository.create the initial .git directory in a new or in an existamce project.
+        Example:-git init
+        
+        3.git add:added files change in your working directory to your index.
+        Example:-git add .
+	
+        4.git commit:takes all the changes written in the index, create  a new commit object pointing to it and sets the branch to point to that new commit. 
+	Example:-git commit -m"your comment"
+	
+        5.git status:show your the status of the files in the index verses the working directory.it will list out the files thar are untracted,modified and staged.
+	Example:-git status
+	
+        6.git log:shows a listed of commits on a branch including the corresponding details.
+	Example:-git log
+	
+        7.git push:pushes all the modified local objects to the remote repository and advances it's branches.
+	Example:-git push origin master
+	
+        8.git remote add:to add a new remote git repository.
+	Example:-git  remote add origin
