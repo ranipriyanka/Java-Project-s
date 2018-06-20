@@ -8,6 +8,6 @@ if((str.charAt(i) == ' ') && (str.charAt(i+1)!=' ')){
 count++;
 }
 }
-System.out.print("number of words : = " + count);
+System.out.println("number of words : = " + count);
 }
 }

@@ -11,7 +11,7 @@
        String str1=sc.nextLine();
 	   
 	   
-       if(str.equals(str1)==true)
+       if(str.contains(str1)==true)
 	   
 	   {
        System.out.println("str contains str1");

@@ -10,6 +10,7 @@ void substring(){
 	}
 	for(int p=0;p<str.length();p++)
 		for(int q=0;q<str.length();q++){
+			
 			System.out.print(str.charAt(p));
 			System.out.println(str.charAt(q));
 	

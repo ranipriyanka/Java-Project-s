@@ -1,8 +1,8 @@
                                         GIT COMMANDS
-        1. git config:sets configure values for your user name,email and more.
-        Example:git config --global user.name"your name"
-                 git config --global user.email"your email"
-        2.git init  :initalize a git repository.create the initial .git directory in a new or in an existamce project.
+                1. git config:sets configure values for your user name,email and more.
+                Example:git config --global user.name"your name"
+                git config --global user.email"your email"
+                2.git init  :initalize a git repository.create the initial .git directory in a new or in an existamce project.
 		Example:git init
 		3.git add:-added files change in your working directory to your index.
 		Example: git add .
