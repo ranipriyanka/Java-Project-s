@@ -39,7 +39,7 @@ ArrayList<Employ> adl=new ArrayList<Employ>();
 adl.add(new Employ("Raspreet",20));  
 adl.add(new Employ("Monika",25));  
 adl.add(new Employ("Rajni",21));  
-adl.add(new Employ("purnima",22));
+adl.add(new Employ("Shalu",19));
   
 System.out.println("Sorting by Name");  
   
