@@ -1,6 +1,6 @@
-
+import java.io.*;
 import java.util.Arrays;
-public class Generic
+ class Generic
 {
 public static <T> void printArray(T[] Array)
 {
@@ -11,17 +11,14 @@ public static <T> void printArray(T[] Array)
 }
 public static void main(String[] args)
 {
-         Integer[] intArray={1,2,3,4,5,6,7,8};
-         Double[] dblArray={1.1 , 1.2 , 2.1 , 3.1 , 4.1 , 7.1 , 6.5};
-         Character[] chaArray={'P','R','I','Y','A'};
-		 
-          System.out.println("Integer contains:");
-          printArray(intArray);
-		  
-          System.out.println("\nDouble contains:");
-           printArray(dblArray);
-		   
-         System.out.println ("\nCharacter contains:");
-         printArray(chaArray);
+        String[]names={"Priyanka", "Meenakshi", "Niharika"};
+Arrays.sort(names);
+System.out.println(Arrays.toString(names));
+double[] lengths={123.0, 234.5, 333.5, 663.1};
+Arrays.sort(lengths);
+System.out.println(Arrays.toString(lengths));
+Integer[] numbers={123, 234, 345, 456};
+Arrays.sort(numbers);
+System.out.println(Arrays.toString(numbers));
 }
 }
